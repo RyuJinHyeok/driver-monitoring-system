@@ -41,7 +41,7 @@
 <br>
 
 ## 📌주요 기능
-### 1. 졸음 운전 감지 모델
+### 1. 졸음 운전 감지 모델 - [상세설명](https://github.com/RyuJinHyeok/driver-monitoring-system/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5(%EC%A1%B8%EC%9D%8C-%EA%B0%90%EC%A7%80-%EB%AA%A8%EB%8D%B8))
 - 데이터 증강(데이터 편향)
 - YOLOv8 기반 분류
 - EAR 알고리즘
