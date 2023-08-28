@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>운전자 | 운전자 모니터링 시스템</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<link rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+    <header id="header">
+        <div class="inner">
+            <a href="index.html" class="logo">운전자 모니터링 시스템</a>
+            <nav id="nav">
+                <a href="user.html">userID</a>
+                <a href="event.html">event</a>
+                <a href="login.html">Logout</a>
+            </nav>
+        </div>
+    </header>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+    <section id="one">
+        <div class="inner">
+            <h2>운전자별 목록 | UserID</h2>
+            <select id="originalNameList">
+                <!-- Options will be added here dynamically -->
+            </select>
+            <table id="videoTable">
+                <thead>
+                    <tr>
+                        <th>event</th>
+                        <th>Occur Time(hhmmss)</th>
+                        <th>Video</th>
+                        <th>원본 이름</th>
+                    </tr>
+                </thead>
+                <tbody id="videoList">
+                  <!-- Videos will be added here dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/user_main.js"></script>
+</body>
+
+</html>
