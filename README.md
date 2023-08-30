@@ -46,16 +46,16 @@
 - YOLOv8 기반 분류
 - EAR 알고리즘
   
-### 2. 다중 이벤트 감지 모델
+### 2. 다중 이벤트 감지 모델 - [상세설명](https://github.com/RyuJinHyeok/driver-monitoring-system/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5(%EB%8B%A4%EC%A4%91-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B0%90%EC%A7%80-%EB%AA%A8%EB%8D%B8))
 - 데이터 증강(데이터 불균형)
 - YOLOv8 기반 분류
   
-### 3. 이벤트 구간 탐지 및 저장
-- 상태변화 탐지 알고리즘
+### 3. 이벤트 구간 탐지 및 저장 - [상세설명](https://github.com/RyuJinHyeok/driver-monitoring-system/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5(%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B5%AC%EA%B0%84-%ED%83%90%EC%A7%80-%EB%B0%8F-%EC%A0%80%EC%9E%A5))
+- 상태 변화 탐지
 - 실시간 영상 저장(multi thread)
   
-### 4. 음성 경고
-- 실시간 음성 경고(multi thread)
+### 4. 음성 경고 - [상세설명](https://github.com/RyuJinHyeok/driver-monitoring-system/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5(%EC%9D%8C%EC%84%B1-%EA%B2%BD%EA%B3%A0))
+- 실시간 음성 경고
   
-### 5. 관리자 시스템
+### 5. 관리자 시스템 - [상세설명](https://github.com/RyuJinHyeok/driver-monitoring-system/wiki/%EC%A3%BC%EC%9A%94-%EA%B8%B0%EB%8A%A5(%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%8B%9C%EC%8A%A4%ED%85%9C))
 - 분류 기능(id, event별)
